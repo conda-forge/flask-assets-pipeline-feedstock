@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: flask-assets-pipeline
-  version: 0.8.0
+  version: "0.8.1"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/flask_assets_pipeline-${{ version }}.tar.gz
-  sha256: 75d66b8a22bb7a84b3f57ca74eb246cf2894f694f01a1cc5de86c788c1e5cc84
+  sha256: 1de032a8762a52b4896312e7da09178924ce23eae52bb13b660bc0e35b30dfa9
 
 build:
   number: 0
