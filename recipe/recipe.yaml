@@ -32,7 +32,9 @@ tests:
       imports:
         - flask_assets_pipeline
       pip_check: true
-      python_version: ${{ python_min }}.*
+      python_version:
+        - ${{ python_min }}.*
+        - "*"
 
 about:
   homepage: https://github.com/hyperflask/flask-assets-pipeline
